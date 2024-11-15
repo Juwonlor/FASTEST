@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    background-color: fff;
+}
+nav{
+display: flex;
+}
+nav ul {
+    display: flex;
+    justify-items: space-between;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 20%;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.lin{
+    margin-right: 2%;
+    background-color: white; 
+    box-shadow: 0 0 10px rgb(82, 80, 80);
+}
+.fam{
+margin-left: 50%;
+margin-top: 2rem;
+}
+hr{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.p:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.fastest{
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 20%;
+    background-color: red;
+    margin-right: 2%;
+}
+.fastest .auto {
+    color: white;
+}
+.fastest .auto .pro li{
+    color: white;
+}
+.log{
+    margin-top: -2rem;
+    margin-left: -13rem;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif, bold;
+    color: white;
+}
+.fastest .auto .p a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 50px, larger, bold;
+}
+.auto{
+    color: white;
+}
+.pro{
+    color: white;
+}
+
+.container{
+    padding: 3rem;
+    margin-left: 20%;
+    margin-right: 5%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(82, 80, 80);
+}
+.line{
+    margin-left: 7rem;
+    margin: 2rem;
+}
+.shop{
+    padding-right: 3rem;
+}
+.icon .industries{
+    padding-right: 7rem;
+}
+
+.shop .systems .assess .engine .industries .search{
+display: inline-block;     
+}
+h3{
+    color: red;
+}
+.fa fa-shopping-cart .fa fa-search .fa fa-industry 
+.fas fa-tools .fa fa-cog .fa fa-lightbulb-o {
+    background-color: red;
+}
+.fa{
+    color: red;
+    display: inline;
+    vertical-align: middle;
+    text-align: end;
+}
+.home{
+    display: flex;
+    margin-right: 70%;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    list-style: none;
+    justify-content: space-around;   
+}
+.home a{
+    text-decoration: none;
+    color: red;
+    font-size: larger;
+    font-weight: 1000;
+}
